@@ -238,7 +238,7 @@
     width: 100%;
   }
   .features {
-    padding-top: 10rem;
+    padding-top: 18rem;
     margin-bottom: 20rem;
   }
 }
@@ -258,6 +258,7 @@
   }
   .features {
     flex-wrap: wrap;
+    padding-top: 20rem;
     margin-bottom: 40rem;
   }
 }
