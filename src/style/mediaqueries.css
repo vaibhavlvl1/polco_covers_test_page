@@ -1,0 +1,217 @@
+@media (max-width: 992px) {
+  .menu {
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .filter-container .filter-menu-container {
+    width: 90%;
+  }
+  .big-circle {
+    position: relative;
+    border-radius: 0;
+    height: 200px;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+  .big-circle-text {
+    text-align: center;
+  }
+  .small-circle {
+    transform: translateY(-12%);
+  }
+  .why-us-card:nth-child(3) {
+    transform: translateX(-30%);
+  }
+  .why-us-card:nth-child(4) {
+    transform: translate(-10%, 120%);
+  }
+  .why-us-card:nth-child(5) {
+    transform: translate(-10%, 270%);
+  }
+  .why-us-card:nth-child(6) {
+    transform: translate(-30%, 390%);
+  }
+}
+@media (max-width: 835px) {
+  .filter-container .filter-menu-container {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  header > .menu-toggler {
+    display: block;
+  }
+  .menu {
+    margin-top: 26rem;
+    padding: 30px 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    left: 150%;
+    transform: translate(0, 0);
+    transition: 0.2s linear left;
+  }
+  .hero-container .hero-text {
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .filter-container {
+    height: 50vh;
+  }
+  .filter-container .filter-menu-container {
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .ads-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ads-section .ads {
+    width: 80%;
+  }
+  .why-us {
+    padding: 2rem;
+  }
+  .spacer {
+    display: none;
+  }
+  .big-circle {
+    position: relative;
+    display: block;
+    width: 100%;
+    right: 0;
+    margin: 0;
+  }
+  .big-circle-text {
+    width: 100%;
+  }
+  .small-circle {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .why-us-card {
+    margin-top: 3rem;
+    position: relative;
+  }
+  .why-us-card:nth-child(3),
+  .why-us-card:nth-child(4),
+  .why-us-card:nth-child(5),
+  .why-us-card:nth-child(6) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .features {
+    height: 20vh;
+    margin-top: 30rem;
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+  }
+  footer .logo-socials {
+    justify-content: center;
+    align-items: center;
+  }
+  footer .logo-socials img {
+    width: 300px;
+  }
+  footer .email-input > input {
+    padding: 10px;
+    border: none;
+    width: 290px;
+    outline: none;
+  }
+  footer .email-input > i {
+    font-size: 15px;
+    right: 0;
+    transform: translate(2900%, -150%);
+  }
+  footer .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer > ul {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    padding: 1rem 1rem;
+    margin: 0;
+    width: 100%;
+  }
+  .features {
+    text-align: center;
+  }
+  .spacer {
+    display: none;
+  }
+  .why-us-card {
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  .why-us-card > .circle {
+    width: 80px;
+    height: 80px;
+  }
+  .why-us-card > .circle > i {
+    font-size: 35px;
+  }
+  .why-us-card .description {
+    width: 100%;
+    text-align: center;
+  }
+  .why-us-card .description .why-us-title {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+  }
+  .why-us-card .description .why-us-description {
+    font-size: 18px;
+    color: #777777;
+    width: 100%;
+  }
+  .features {
+    padding-top: 10rem;
+    margin-bottom: 20rem;
+  }
+}
+@media (max-width: 380px) {
+  .hero-container .hero-text {
+    width: 90%;
+    top: 30%;
+    font-size: 45px;
+    text-align: center;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-group > .four-wheeler {
+    transform: translate(0, -8px);
+  }
+  .features {
+    flex-wrap: wrap;
+    margin-bottom: 40rem;
+  }
+}
+
+/*# sourceMappingURL=mediaqueries.css.map */

@@ -1,0 +1,292 @@
+// for Medium width devices
+
+@media (max-width: 992px) {
+  // For Header Menu
+  .menu {
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  //   for Filter Menu
+
+  .filter-container {
+    .filter-menu-container {
+      width: 90%;
+    }
+  }
+
+  //   The Why us Section
+
+  .big-circle {
+    position: relative;
+    border-radius: 0;
+    height: 200px;
+    top: 0;
+    width: 100%;
+    left: 0;
+    &-text {
+      text-align: center;
+    }
+  }
+
+  .small-circle {
+    transform: translateY(-12%);
+  }
+
+  .why-us-card:nth-child(3) {
+    transform: translateX(-30%);
+  }
+
+  .why-us-card:nth-child(4) {
+    transform: translate(-10%, 120%);
+  }
+
+  .why-us-card:nth-child(5) {
+    transform: translate(-10%, 270%);
+  }
+
+  .why-us-card:nth-child(6) {
+    transform: translate(-30%, 390%);
+  }
+}
+
+// minor adjustment
+
+@media (max-width: 835px) {
+  .filter-container {
+    .filter-menu-container {
+      width: 100%;
+    }
+  }
+}
+
+// For Small Width devices
+
+@media (max-width: 768px) {
+  // menu styling
+  header {
+    & > .menu-toggler {
+      display: block;
+    }
+  }
+  .menu {
+    margin-top: 26rem;
+    padding: 30px 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    left: 150%;
+    transform: translate(0, 0);
+    transition: 0.2s linear left;
+  }
+
+  //   hero container
+
+  .hero-container {
+    .hero-text {
+      width: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  //   filter menu search
+
+  .filter-container {
+    height: 50vh;
+    .filter-menu-container {
+      width: 80%;
+      height: 100%;
+
+      flex-direction: column;
+    }
+  }
+
+  //   ads section
+
+  .ads-section {
+    flex-direction: column;
+    align-items: center;
+
+    .ads {
+      width: 80%;
+    }
+  }
+
+  //   why us section
+
+  .why-us {
+    padding: 2rem;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .big-circle {
+    position: relative;
+    display: block;
+    width: 100%;
+    right: 0;
+    margin: 0;
+
+    &-text {
+      width: 100%;
+    }
+  }
+
+  .small-circle {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .why-us-card {
+    margin-top: 3rem;
+    position: relative;
+  }
+
+  .why-us-card:nth-child(3),
+  .why-us-card:nth-child(4),
+  .why-us-card:nth-child(5),
+  .why-us-card:nth-child(6) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  //   features
+
+  .features {
+    height: 20vh;
+    margin-top: 30rem;
+    text-align: center;
+  }
+
+  //   footer
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+
+    .logo-socials {
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 300px;
+      }
+    }
+    .email-input {
+      & > input {
+        padding: 10px;
+        border: none;
+        width: 290px;
+        outline: none;
+      }
+      & > i {
+        font-size: 15px;
+        right: 0;
+        transform: translate(2900%, -150%);
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    & > ul {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    padding: 1rem 1rem;
+    margin: 0;
+    width: 100%;
+  }
+
+  .features {
+    text-align: center;
+  }
+  .spacer {
+    display: none;
+  }
+
+  .why-us-card {
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1rem;
+
+    & > .circle {
+      width: 80px;
+      height: 80px;
+
+      & > i {
+        font-size: 35px;
+      }
+    }
+
+    .description {
+      width: 100%;
+      text-align: center;
+      .why-us-title {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .why-us-description {
+        font-size: 18px;
+        color: #777777;
+        width: 100%;
+      }
+    }
+  }
+
+  .features {
+    padding-top: 10rem;
+    margin-bottom: 20rem;
+  }
+}
+
+@media (max-width: 380px) {
+  // hero section
+  .hero-container {
+    .hero-text {
+      width: 90%;
+      top: 30%;
+      font-size: 45px;
+      text-align: center;
+    }
+  }
+
+  //   filter menu section
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+
+    & > .four-wheeler {
+      transform: translate(0, -8px);
+    }
+  }
+
+  .features {
+    flex-wrap: wrap;
+    margin-bottom: 40rem;
+  }
+}
